@@ -1,44 +1,42 @@
-import { EmailTemplate } from "@/components/email-template";
-import { config } from "@/data/config";
-import { Resend } from "resend";
-import { z } from "zod";
+import nodemailer from "nodemailer";
 
-const resend = new Resend(process.env.RESEND_API_KEY);
-
-const Email = z.object({
-  fullName: z.string().min(2, "Full name is invalid!"),
-  email: z.string().email({ message: "Email is invalid!" }),
-  message: z.string().min(10, "Message is too short!"),
-});
 export async function POST(req: Request) {
   try {
-    const body = await req.json();
-    console.log(body);
-    const {
-      success: zodSuccess,
-      data: zodData,
-      error: zodError,
-    } = Email.safeParse(body);
-    if (!zodSuccess)
-      return Response.json({ error: zodError?.message }, { status: 400 });
+    const { fullName, email, message, captchaToken } = await req.json();
 
-    const { data: resendData, error: resendError } = await resend.emails.send({
-      from: "Porfolio <onboarding@resend.dev>",
-      to: [config.email],
-      subject: "Contact me from portfolio",
-      react: EmailTemplate({
-        fullName: zodData.fullName,
-        email: zodData.email,
-        message: zodData.message,
-      }),
-    });
+    const captchaRes = await fetch(
+      `https://www.google.com/recaptcha/api/siteverify`,
+      {
+        method: "POST",
+        headers: { "Content-Type": "application/x-www-form-urlencoded" },
+        body: `secret=${process.env.RECAPTCHA_SECRET_KEY}&response=${captchaToken}`,
+      }
+    );
 
-    if (resendError) {
-      return Response.json({ resendError }, { status: 500 });
+    const captchaData = await captchaRes.json();
+    if (!captchaData.success) {
+      return Response.json({ error: "Invalid captcha" }, { status: 400 });
     }
 
-    return Response.json(resendData);
+    const transporter = nodemailer.createTransport({
+      service: "gmail",
+      auth: {
+        user: process.env.GMAIL_USER,
+        pass: process.env.GMAIL_PASS,
+      },
+    });
+
+    const mailOptions = {
+      from: `"${fullName}" <${process.env.GMAIL_USER}>`,
+      to: process.env.GMAIL_USER,
+      subject: "Contact Form Submission",
+      text: `From: ${fullName} (${email})\n\n${message}`,
+    };
+
+    await transporter.sendMail(mailOptions);
+    return Response.json({ success: true });
   } catch (error) {
+    console.error("Email send error:", error);
     return Response.json({ error }, { status: 500 });
   }
 }
