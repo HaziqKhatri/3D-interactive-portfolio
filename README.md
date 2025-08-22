@@ -6,8 +6,6 @@ Welcome to the repository for my personal portfolio website! 🎉 This project i
 
 ### Live preview: https://www.haziqkhatri.com/
 
-https://github.com/Abhiz2411/3D-interactive-portfolio/blob/main/preview_video.mp4
-
 This project is **inspired** by the amazing work of [Naresh Khatri](https://github.com/Naresh-Khatri/Portfolio). His innovative approach to web design and attention to detail has been a huge influence. Thank you, Naresh! 🙏
 
 ## 🔥 Features
