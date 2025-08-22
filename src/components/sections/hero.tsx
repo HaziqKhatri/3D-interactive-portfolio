@@ -64,7 +64,7 @@ const HeroSection = () => {
                       side="top"
                       className="dark:bg-white dark:text-black"
                     >
-                      theres something waiting for you in devtools
+                     Scroll down
                     </TooltipContent>
                   </Tooltip>
                 </BlurIn>
@@ -83,18 +83,18 @@ const HeroSection = () => {
               <div className="mt-8 md:ml-2 flex flex-col gap-3">
               
                 <div className="md:self-start flex gap-3">
-                  {/*<Tooltip delayDuration={300}>
+                  {<Tooltip delayDuration={300}>
                     <TooltipTrigger asChild>
-                      <Link href={"#contact"}>
+                      <Link href="/assets/Khatri_Haziq_portfolio.pdf" target="_blank">
                         <Button
                           variant={"outline"}
                           className="block w-full overflow-hidden"
                         >
-                          Hire Me
+                         Portfolio
                         </Button>
                       </Link>
                     </TooltipTrigger>
-                  </Tooltip>*/}
+                  </Tooltip>}
                   <Link
                     href={config.social.github}
                     target="_blank"

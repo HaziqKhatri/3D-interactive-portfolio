@@ -411,7 +411,7 @@ const projects: Project[] = [
   github: "",
   skills: {
     frontend: [PROJECT_SKILLS.react, PROJECT_SKILLS.tailwind],
-    backend: [PROJECT_SKILLS.shopify],
+    backend: [],
   },
   get content() {
     return (
@@ -507,7 +507,7 @@ const projects: Project[] = [
   github: "",
   skills: {
     frontend: [PROJECT_SKILLS.react, PROJECT_SKILLS.tailwind],
-    backend: [PROJECT_SKILLS.wordpress],
+    backend: [],
   },
   get content() {
     return (
@@ -539,7 +539,7 @@ const projects: Project[] = [
   github: "",
   skills: {
     frontend: [PROJECT_SKILLS.react, PROJECT_SKILLS.tailwind],
-    backend: [PROJECT_SKILLS.shopify],
+    backend: [],
   },
   get content() {
     return (
