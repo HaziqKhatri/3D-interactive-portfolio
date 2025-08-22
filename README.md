@@ -88,7 +88,7 @@ This project is deployed using **Vercel** for its blazing-fast performance and e
 Feel free to reach out to me for collaboration, feedback, or just to say hi! 😊
 
 - **Email:** haziq.khatri5435@gmail.com
-- **LinkedIn:** [Your LinkedIn Profile](https://www.linkedin.com/in/haziq-khatri-bb586b192)
+- **LinkedIn:** [Khatri](https://www.linkedin.com/in/haziq-khatri-bb586b192)
 
 ---
 
