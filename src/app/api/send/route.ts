@@ -4,19 +4,19 @@ export async function POST(req: Request) {
   try {
     const { fullName, email, message, captchaToken } = await req.json();
 
-    const captchaRes = await fetch(
-      `https://www.google.com/recaptcha/api/siteverify`,
-      {
-        method: "POST",
-        headers: { "Content-Type": "application/x-www-form-urlencoded" },
-        body: `secret=${process.env.RECAPTCHA_SECRET_KEY}&response=${captchaToken}`,
-      }
-    );
+    // const captchaRes = await fetch(
+    //   `https://www.google.com/recaptcha/api/siteverify`,
+    //   {
+    //     method: "POST",
+    //     headers: { "Content-Type": "application/x-www-form-urlencoded" },
+    //     body: `secret=${process.env.RECAPTCHA_SECRET_KEY}&response=${captchaToken}`,
+    //   }
+    // );
 
-    const captchaData = await captchaRes.json();
-    if (!captchaData.success) {
-      return Response.json({ error: "Invalid captcha" }, { status: 400 });
-    }
+    // const captchaData = await captchaRes.json();
+    // if (!captchaData.success) {
+    //   return Response.json({ error: "Invalid captcha" }, { status: 400 });
+    // }
 
     const transporter = nodemailer.createTransport({
       service: "gmail",
