@@ -34,6 +34,19 @@ const ProjectsSection = () => {
           <Modall key={project.src} project={project} />
         ))}
       </div>
+       <div className="flex justify-end mt-12">
+        <a
+          href="https://linktr.ee/haziqkhatri"
+          target="_blank"
+          rel="noopener noreferrer"
+          className="relative z-50 px-6 py-3 rounded-lg text-white bg-black dark:bg-white dark:text-black 
+                     shadow-lg hover:opacity-80 transition cursor-pointer"
+        >
+          View More
+        </a>
+      </div>
+
+
     </section>
   );
 };

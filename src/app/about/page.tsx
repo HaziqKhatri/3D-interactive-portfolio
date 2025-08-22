@@ -34,6 +34,8 @@ import {
   SiVisualstudiocode,
 } from "react-icons/si";
 import { VscCode } from "react-icons/vsc";
+import { SiUpwork } from "react-icons/si";
+
 
 // @ts-ignore
 import { Splide, SplideSlide } from "@splidejs/react-splide";
@@ -43,27 +45,33 @@ import { TbTerminal2 } from "react-icons/tb";
 const CONTACT_LINKS = [
   {
     name: "Email",
-    content: "abhijitzende75@gmail",
-    href: "mailto:abhijitzende75@gmail.com",
+    content: "haziq.khatri5436@gmail.com",
+    href: "mailto:haziq.khatri5436@gmail.com",
     icon: <FaEnvelope height={"50px"} />,
   },
   {
     name: "Phone",
-    content: "1234567890",
-    href: "tel:8308509180",
+    content: "+923212469060",
+    href: "tel:+923212469060",
     icon: <FaPhone height={"50px"} />,
   },
   {
     name: "LinkedIn",
-    href: "https://www.linkedin.com/in/zende-abhijit/",
-    content: "/zende-abhijit",
+    href: "https://www.linkedin.com/in/haziq-khatri-bb586b192",
+    content: "/haziq-khatri",
     icon: <FaLinkedin height={"50px"} />,
   },
   {
     name: "GitHub",
-    href: "https://github.com/Abhiz2411",
-    content: "/naresh-khatri",
+    href: "https://github.com/HaziqKhatri",
+    content: "/haziqkhatri",
     icon: <FaGithub height={"50px"} />,
+  },
+  {
+    name: "Upwork",
+    href: "https://github.com/HaziqKhatri",
+    content: "/haziqkhatri",
+    icon: <SiUpwork height={"50px"} />,
   },
 ];
 
@@ -251,9 +259,9 @@ function Page() {
                 />
               </div>
               <div className="flex flex-col gap-3 lg:items-center ml-10 md:ml-20 lg:ml-0">
-                <p className="text-center text-xl">Naresh Khatri</p>
+                <p className="text-center text-xl">Haziq Khatri</p>
                 <div className="text-xs bg-zinc-700 w-fit px-3 py-1 rounded-full">
-                  Web Developer
+                  Full Stack Developer
                 </div>
               </div>
             </div>
