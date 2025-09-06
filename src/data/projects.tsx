@@ -335,264 +335,491 @@ const projects: Project[] = [
       </div>
     );
   },
-},
+  },
 
-{
-  id: "victorybaptistchurch",
-  category: "Website",
-  title: "Victory Baptist Church",
-  src: "/assets/demo/Church/1.png",
-  screenshots: ["1.png", "2.png"],
-  live: "https://victorybaptistchurch.co.nz/",
-  github: "",
-  skills: {
-    frontend: [PROJECT_SKILLS.react, PROJECT_SKILLS.tailwind],
-    backend: [],
+  {
+    id: "victorybaptistchurch",
+    category: "Website",
+    title: "Victory Baptist Church",
+    src: "/assets/demo/Church/1.png",
+    screenshots: ["1.png", "2.png"],
+    live: "https://victorybaptistchurch.co.nz/",
+    github: "",
+    skills: {
+      frontend: [PROJECT_SKILLS.react, PROJECT_SKILLS.tailwind],
+      backend: [],
+    },
+    get content() {
+      return (
+        <div>
+          <TypographyP className="font-mono ">
+            Victory Baptist Church is a welcoming community that shares Christian teachings, 
+            live sermons, events, and outreach programs. The website provides information 
+            about services, ministries, and ways to get connected.
+          </TypographyP>
+          <ProjectsLinks live={this.live} repo={this.github} />
+          <SlideShow
+            images={[
+              `/assets/demo/Church/1.png`,
+              `/assets/demo/Church/2.png`,
+            ]}
+          />
+        </div>
+      );
+    },
   },
-  get content() {
-    return (
-      <div>
-        <TypographyP className="font-mono ">
-          Victory Baptist Church is a welcoming community that shares Christian teachings, 
-          live sermons, events, and outreach programs. The website provides information 
-          about services, ministries, and ways to get connected.
-        </TypographyP>
-        <ProjectsLinks live={this.live} repo={this.github} />
-        <SlideShow
-          images={[
-            `/assets/demo/Church/1.png`,
-            `/assets/demo/Church/2.png`,
-          ]}
-        />
-      </div>
-    );
-  },
-},
 
-{
-  id: "nma",
-  category: "Website",
-  title: "NMA",
-  src: "/assets/demo/nma/1.png",
-  screenshots: ["1.png", "2.png"],
-  live: "http://nma.org.nz/",
-  github: "",
-  skills: {
-    frontend: [PROJECT_SKILLS.react, PROJECT_SKILLS.tailwind],
-    backend: [],
+  {
+    id: "nma",
+    category: "Website",
+    title: "NMA",
+    src: "/assets/demo/nma/1.png",
+    screenshots: ["1.png", "2.png"],
+    live: "http://nma.org.nz/",
+    github: "",
+    skills: {
+      frontend: [PROJECT_SKILLS.react, PROJECT_SKILLS.tailwind],
+      backend: [],
+    },
+    get content() {
+      return (
+        <div>
+          <TypographyP className="font-mono ">
+            The National Museum of Afghanistan (New Zealand branch) preserves and promotes 
+            Afghan heritage through exhibitions, cultural programs, and educational resources. 
+            The website shares history, events, and opportunities to support the museum’s mission.
+          </TypographyP>
+          <ProjectsLinks live={this.live} repo={this.github} />
+          <SlideShow
+            images={[
+              `/assets/demo/NMA/1.png`,
+              `/assets/demo/NMA/2.png`,
+            ]}
+          />
+        </div>
+      );
+    },
   },
-  get content() {
-    return (
-      <div>
-        <TypographyP className="font-mono ">
-          The National Museum of Afghanistan (New Zealand branch) preserves and promotes 
-          Afghan heritage through exhibitions, cultural programs, and educational resources. 
-          The website shares history, events, and opportunities to support the museum’s mission.
-        </TypographyP>
-        <ProjectsLinks live={this.live} repo={this.github} />
-        <SlideShow
-          images={[
-            `/assets/demo/NMA/1.png`,
-            `/assets/demo/NMA/2.png`,
-          ]}
-        />
-      </div>
-    );
-  },
-},
 
-{
-  id: "pakchinamart",
-  category: "E-Commerce",
-  title: "Pak China Mart",
-  src: "/assets/demo/PKCM/1.png",
-  screenshots: ["1.png", "2.png"],
-  live: "https://pakchinamart.com/",
-  github: "",
-  skills: {
-    frontend: [PROJECT_SKILLS.react, PROJECT_SKILLS.tailwind],
-    backend: [],
+  {
+    id: "pakchinamart",
+    category: "E-Commerce",
+    title: "Pak China Mart",
+    src: "/assets/demo/PKCM/1.png",
+    screenshots: ["1.png", "2.png"],
+    live: "https://pakchinamart.com/",
+    github: "",
+    skills: {
+      frontend: [PROJECT_SKILLS.react, PROJECT_SKILLS.tailwind],
+      backend: [],
+    },
+    get content() {
+      return (
+        <div>
+          <TypographyP className="font-mono ">
+            Pak China Mart is an online store offering a wide variety of products ranging from 
+            electronics and fashion to household items. The platform ensures affordable prices, 
+            reliable delivery, and convenient online shopping.
+          </TypographyP>
+          <ProjectsLinks live={this.live} repo={this.github} />
+          <SlideShow
+            images={[
+              `/assets/demo/PKCM/1.png`,
+              `/assets/demo/PKCM/2.png`,
+            ]}
+          />
+        </div>
+      );
+    },
   },
-  get content() {
-    return (
-      <div>
-        <TypographyP className="font-mono ">
-          Pak China Mart is an online store offering a wide variety of products ranging from 
-          electronics and fashion to household items. The platform ensures affordable prices, 
-          reliable delivery, and convenient online shopping.
-        </TypographyP>
-        <ProjectsLinks live={this.live} repo={this.github} />
-        <SlideShow
-          images={[
-            `/assets/demo/PKCM/1.png`,
-            `/assets/demo/PKCM/2.png`,
-          ]}
-        />
-      </div>
-    );
-  },
-},
 
-{
-  id: "zawadi",
-  category: "E-Commerce",
-  title: "Zawadi Kenya",
-  src: "/assets/demo/Zawadi/1.png",
-  screenshots: ["1.png", "2.png"],
-  live: "https://zawadi.co.ke/",
-  github: "",
-  skills: {
-    frontend: [PROJECT_SKILLS.react, PROJECT_SKILLS.tailwind],
-    backend: [],
+  {
+    id: "zawadi",
+    category: "E-Commerce",
+    title: "Zawadi Kenya",
+    src: "/assets/demo/Zawadi/1.png",
+    screenshots: ["1.png", "2.png"],
+    live: "https://zawadi.co.ke/",
+    github: "",
+    skills: {
+      frontend: [PROJECT_SKILLS.react, PROJECT_SKILLS.tailwind],
+      backend: [],
+    },
+    get content() {
+      return (
+        <div>
+          <TypographyP className="font-mono ">
+            Zawadi is an online gift shop in Kenya offering curated collections of 
+            personalized and unique gifts. Customers can browse categories such as 
+            flowers, hampers, accessories, and more, with easy ordering and delivery.
+          </TypographyP>
+          <ProjectsLinks live={this.live} repo={this.github} />
+          <SlideShow
+            images={[
+              `/assets/demo/Zawadi/1.png`,
+              `/assets/demo/Zawadi/2.png`,
+            ]}
+          />
+        </div>
+      );
+    },
   },
-  get content() {
-    return (
-      <div>
-        <TypographyP className="font-mono ">
-          Zawadi is an online gift shop in Kenya offering curated collections of 
-          personalized and unique gifts. Customers can browse categories such as 
-          flowers, hampers, accessories, and more, with easy ordering and delivery.
-        </TypographyP>
-        <ProjectsLinks live={this.live} repo={this.github} />
-        <SlideShow
-          images={[
-            `/assets/demo/Zawadi/1.png`,
-            `/assets/demo/Zawadi/2.png`,
-          ]}
-        />
-      </div>
-    );
-  },
-},
 
-{
-  id: "oserth",
-  category: "Website",
-  title: "Oserth",
-  src: "/assets/demo/Oserth/1.png",
-  screenshots: ["1.png", "2.png"],
-  live: "https://oserth.e8demo.com/",
-  github: "",
-  skills: {
-    frontend: [PROJECT_SKILLS.react, PROJECT_SKILLS.tailwind],
-    backend: [],
+  {
+    id: "oserth",
+    category: "Website",
+    title: "Oserth",
+    src: "/assets/demo/Oserth/1.png",
+    screenshots: ["1.png", "2.png"],
+    live: "https://oserth.e8demo.com/",
+    github: "",
+    skills: {
+      frontend: [PROJECT_SKILLS.react, PROJECT_SKILLS.tailwind],
+      backend: [],
+    },
+    get content() {
+      return (
+        <div>
+          <TypographyP className="font-mono ">
+            Oserth is a business platform demo showcasing modern website design and 
+            professional branding. It provides sections for services, portfolio, 
+            testimonials, and contact to highlight company offerings.
+          </TypographyP>
+          <ProjectsLinks live={this.live} repo={this.github} />
+          <SlideShow
+            images={[
+              `/assets/demo/Oserth/1.png`,
+              `/assets/demo/Oserth/2.png`,
+            ]}
+          />
+        </div>
+      );
+    },
   },
-  get content() {
-    return (
-      <div>
-        <TypographyP className="font-mono ">
-          Oserth is a business platform demo showcasing modern website design and 
-          professional branding. It provides sections for services, portfolio, 
-          testimonials, and contact to highlight company offerings.
-        </TypographyP>
-        <ProjectsLinks live={this.live} repo={this.github} />
-        <SlideShow
-          images={[
-            `/assets/demo/Oserth/1.png`,
-            `/assets/demo/Oserth/2.png`,
-          ]}
-        />
-      </div>
-    );
-  },
-},
 
-{
-  id: "ccme",
-  category: "Website",
-  title: "CCME News",
-  src: "/assets/demo/CCME/1.png",
-  screenshots: ["1.png", "2.png"],
-  live: "https://ccme.news/",
-  github: "",
-  skills: {
-    frontend: [PROJECT_SKILLS.react, PROJECT_SKILLS.tailwind],
-    backend: [],
+  {
+    id: "ccme",
+    category: "Website",
+    title: "CCME News",
+    src: "/assets/demo/CCME/1.png",
+    screenshots: ["1.png", "2.png"],
+    live: "https://ccme.news/",
+    github: "",
+    skills: {
+      frontend: [PROJECT_SKILLS.react, PROJECT_SKILLS.tailwind],
+      backend: [],
+    },
+    get content() {
+      return (
+        <div>
+          <TypographyP className="font-mono ">
+            CCME News is an online news portal delivering timely updates on politics, 
+            society, economy, and global issues. The site presents articles, opinion 
+            pieces, and multimedia content for readers worldwide.
+          </TypographyP>
+          <ProjectsLinks live={this.live} repo={this.github} />
+          <SlideShow
+            images={[
+              `/assets/demo/CCME/1.png`,
+              `/assets/demo/CCME/2.png`,
+            ]}
+          />
+        </div>
+      );
+    },
   },
-  get content() {
-    return (
-      <div>
-        <TypographyP className="font-mono ">
-          CCME News is an online news portal delivering timely updates on politics, 
-          society, economy, and global issues. The site presents articles, opinion 
-          pieces, and multimedia content for readers worldwide.
-        </TypographyP>
-        <ProjectsLinks live={this.live} repo={this.github} />
-        <SlideShow
-          images={[
-            `/assets/demo/CCME/1.png`,
-            `/assets/demo/CCME/2.png`,
-          ]}
-        />
-      </div>
-    );
-  },
-},
 
-{
-  id: "fusionfragrance",
-  category: "E-Commerce",
-  title: "Fusion Fragrance",
-  src: "/assets/demo/Fusion/1.png",
-  screenshots: ["1.png", "2.png"],
-  live: "https://fusionfragrance.pk/",
-  github: "",
-  skills: {
-    frontend: [PROJECT_SKILLS.react, PROJECT_SKILLS.tailwind],
-    backend: [],
+  {
+    id: "fusionfragrance",
+    category: "E-Commerce",
+    title: "Fusion Fragrance",
+    src: "/assets/demo/Fusion/1.png",
+    screenshots: ["1.png", "2.png"],
+    live: "https://fusionfragrance.pk/",
+    github: "",
+    skills: {
+      frontend: [PROJECT_SKILLS.react, PROJECT_SKILLS.tailwind],
+      backend: [],
+    },
+    get content() {
+      return (
+        <div>
+          <TypographyP className="font-mono ">
+            Fusion Fragrance is an online store specializing in premium perfumes and 
+            fragrance collections. The website features a wide variety of international 
+            brands with secure online shopping and delivery across Pakistan.
+          </TypographyP>
+          <ProjectsLinks live={this.live} repo={this.github} />
+          <SlideShow
+            images={[
+              `/assets/demo/Fusion/1.png`,
+              `/assets/demo/Fusion/2.png`,
+            ]}
+          />
+        </div>
+      );
+    },
   },
-  get content() {
-    return (
-      <div>
-        <TypographyP className="font-mono ">
-          Fusion Fragrance is an online store specializing in premium perfumes and 
-          fragrance collections. The website features a wide variety of international 
-          brands with secure online shopping and delivery across Pakistan.
-        </TypographyP>
-        <ProjectsLinks live={this.live} repo={this.github} />
-        <SlideShow
-          images={[
-            `/assets/demo/Fusion/1.png`,
-            `/assets/demo/Fusion/2.png`,
-          ]}
-        />
-      </div>
-    );
-  },
-},
 
-{
-  id: "hairandmakeupaustralia",
-  category: "Website",
-  title: "Hair & Makeup Australia",
-  src: "/assets/demo/Hair/1.png",
-  screenshots: ["1.png", "2.png"],
-  live: "https://hairandmakeupaustralia.com.au/",
-  github: "",
-  skills: {
-    frontend: [PROJECT_SKILLS.react, PROJECT_SKILLS.tailwind],
-    backend: [],
+  {
+    id: "hairandmakeupaustralia",
+    category: "Website",
+    title: "Hair & Makeup Australia",
+    src: "/assets/demo/Hair/1.png",
+    screenshots: ["1.png", "2.png"],
+    live: "https://hairandmakeupaustralia.com.au/",
+    github: "",
+    skills: {
+      frontend: [PROJECT_SKILLS.react, PROJECT_SKILLS.tailwind],
+      backend: [],
+    },
+    get content() {
+      return (
+        <div>
+          <TypographyP className="font-mono ">
+            Hair and Makeup Australia offers professional beauty services for weddings, 
+            events, and special occasions. The site showcases service packages, client 
+            galleries, and booking options for a seamless customer experience.
+          </TypographyP>
+          <ProjectsLinks live={this.live} repo={this.github} />
+          <SlideShow
+            images={[
+              `/assets/demo/Hair/1.png`,
+              `/assets/demo/Hair/2.png`,
+            ]}
+          />
+        </div>
+      );
+    },
   },
-  get content() {
-    return (
-      <div>
-        <TypographyP className="font-mono ">
-          Hair and Makeup Australia offers professional beauty services for weddings, 
-          events, and special occasions. The site showcases service packages, client 
-          galleries, and booking options for a seamless customer experience.
-        </TypographyP>
-        <ProjectsLinks live={this.live} repo={this.github} />
-        <SlideShow
-          images={[
-            `/assets/demo/Hair/1.png`,
-            `/assets/demo/Hair/2.png`,
-          ]}
-        />
-      </div>
-    );
+    {
+    id: "tcfpakistan",
+    category: "Website",
+    title: "The Citizens Foundation (Pakistan)",
+    src: "/assets/demo/TCFpng",
+    screenshots: ["1.png", "2.png"],
+    live: "https://www.tcf.org.pk/",
+    github: "",
+    skills: {
+      frontend: [PROJECT_SKILLS.react, PROJECT_SKILLS.tailwind],
+      backend: [],
+    },
+    get content() {
+      return (
+        <div>
+          <TypographyP className="font-mono ">
+            The Citizens Foundation (Pakistan) is a leading non-profit organization 
+            dedicated to providing quality education to underprivileged children 
+            across Pakistan. The website shares their mission, impact, stories, 
+            and ways to support through donations and volunteering.
+          </TypographyP>
+          <ProjectsLinks live={this.live} repo={this.github} />
+          <SlideShow
+            images={[
+              `/assets/demo/TCFpng`,
+              `/assets/demo/TCFpng`,
+            ]}
+          />
+        </div>
+      );
+    },
   },
-},
 
-  
+  {
+    id: "tcfuk",
+    category: "Website",
+    title: "The Citizens Foundation (UK)",
+    src: "/assets/demo/TCF1.png",
+    screenshots: ["1.png", "2.png"],
+    live: "https://tcf-uk.org/",
+    github: "",
+    skills: {
+      frontend: [PROJECT_SKILLS.react, PROJECT_SKILLS.tailwind],
+      backend: [],
+    },
+    get content() {
+      return (
+        <div>
+          <TypographyP className="font-mono ">
+            The Citizens Foundation UK supports TCF’s mission by raising funds 
+            and awareness in the United Kingdom. The site highlights education 
+            initiatives, donation programs, and upcoming charity events.
+          </TypographyP>
+          <ProjectsLinks live={this.live} repo={this.github} />
+          <SlideShow
+            images={[
+              `/assets/demo/TCF1.png`,
+              `/assets/demo/TCF2.png`,
+            ]}
+          />
+        </div>
+      );
+    },
+  },
+
+  {
+    id: "tcfnorway",
+    category: "Website",
+    title: "The Citizens Foundation (Norway)",
+    src: "/assets/demo/TCF/1.png",
+    screenshots: ["1.png", "2.png"],
+    live: "https://www.tcfnorway.org/",
+    github: "",
+    skills: {
+      frontend: [PROJECT_SKILLS.react, PROJECT_SKILLS.tailwind],
+      backend: [],
+    },
+    get content() {
+      return (
+        <div>
+          <TypographyP className="font-mono ">
+            The Citizens Foundation Norway is part of TCF’s global chapters, 
+            working to bring education opportunities to children in Pakistan. 
+            The website provides details on campaigns, donation options, 
+            and community support activities in Norway.
+          </TypographyP>
+          <ProjectsLinks live={this.live} repo={this.github} />
+          <SlideShow
+            images={[
+              `/assets/demo/TCF/1.png`,
+              `/assets/demo/TCF/2.png`,
+            ]}
+          />
+        </div>
+      );
+    },
+  },
+
+  {
+    id: "tcfnetherlands",
+    category: "Website",
+    title: "The Citizens Foundation (Netherlands)",
+    src: "/assets/demo/TCF1.png",
+    screenshots: ["1.png", "2.png"],
+    live: "https://tcfnetherlands.org/",
+    github: "",
+    skills: {
+      frontend: [PROJECT_SKILLS.react, PROJECT_SKILLS.tailwind],
+      backend: [],
+    },
+    get content() {
+      return (
+        <div>
+          <TypographyP className="font-mono ">
+            The Citizens Foundation Netherlands supports TCF’s education 
+            initiatives by engaging the Dutch community in fundraising and 
+            awareness campaigns. The website showcases events, donation 
+            opportunities, and TCF’s global impact.
+          </TypographyP>
+          <ProjectsLinks live={this.live} repo={this.github} />
+          <SlideShow
+            images={[
+              `/assets/demo/TCF1.png`,
+              `/assets/demo/TCF2.png`,
+            ]}
+          />
+        </div>
+      );
+    },
+  },
+
+  {
+    id: "tcfusa",
+    category: "Website",
+    title: "The Citizens Foundation (USA)",
+    src: "/assets/demo/TCF/1.png",
+    screenshots: ["1.png", "2.png"],
+    live: "https://tcfusa.org/",
+    github: "",
+    skills: {
+      frontend: [PROJECT_SKILLS.react, PROJECT_SKILLS.tailwind],
+      backend: [],
+    },
+    get content() {
+      return (
+        <div>
+          <TypographyP className="font-mono ">
+            The Citizens Foundation USA raises awareness and funds to support 
+            education in Pakistan. The site highlights donation programs, 
+            impact stories, and opportunities for individuals and organizations 
+            to contribute to TCF’s mission.
+          </TypographyP>
+          <ProjectsLinks live={this.live} repo={this.github} />
+          <SlideShow
+            images={[
+              `/assets/demo/TCF/1.png`,
+              `/assets/demo/TCF/2.png`,
+            ]}
+          />
+        </div>
+      );
+    },
+  },
+
+  {
+    id: "tcfcanada",
+    category: "Website",
+    title: "The Citizens Foundation (Canada)",
+    src: "/assets/demo/TCF/1.png",
+    screenshots: ["1.png", "2.png"],
+    live: "https://tcfcanada.org/",
+    github: "",
+    skills: {
+      frontend: [PROJECT_SKILLS.react, PROJECT_SKILLS.tailwind],
+      backend: [],
+    },
+    get content() {
+      return (
+        <div>
+          <TypographyP className="font-mono ">
+            The Citizens Foundation Canada chapter engages the Canadian community 
+            to support TCF schools in Pakistan. The site features fundraising 
+            campaigns, volunteer opportunities, and donation portals.
+          </TypographyP>
+          <ProjectsLinks live={this.live} repo={this.github} />
+          <SlideShow
+            images={[
+              `/assets/demo/TCF/1.png`,
+              `/assets/demo/TCF/2.png`,
+            ]}
+          />
+        </div>
+      );
+    },
+  },
+
+  {
+    id: "tcfswitzerland",
+    category: "Website",
+    title: "The Citizens Foundation (Switzerland)",
+    src: "/assets/demo/TCFSS/1.png",
+    screenshots: ["1.png", "2.png"],
+    live: "https://tcfswitzerland.org/",
+    github: "",
+    skills: {
+      frontend: [PROJECT_SKILLS.react, PROJECT_SKILLS.tailwind],
+      backend: [],
+    },
+    get content() {
+      return (
+        <div>
+          <TypographyP className="font-mono ">
+            The Citizens Foundation Switzerland works with local donors and 
+            organizations to expand educational opportunities in Pakistan. 
+            The website promotes TCF’s mission, donation channels, and 
+            upcoming Swiss community events.
+          </TypographyP>
+          <ProjectsLinks live={this.live} repo={this.github} />
+          <SlideShow
+            images={[
+              `/assets/demo/TCFSS/1.png`,
+              `/assets/demo/TCFSS/2.png`,
+            ]}
+          />
+        </div>
+      );
+    },
+  },
+
 ];
 export default projects;
