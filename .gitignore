@@ -1,20 +1,35 @@
-# See https://help.github.com/articles/ignoring-files/ for more about ignoring files.
+# -----------------------------
+# Root rules
+# -----------------------------
+
+# Ignore everything by default
+*
+
+# Don’t ignore this file
+!.gitignore
+
+# Keep only the actual project folder
+!/3D-interactive-portfolio/
+
+# -----------------------------
+# Inside 3D-interactive-portfolio rules
+# -----------------------------
 
 # dependencies
-/node_modules
-/.pnp
-.pnp.js
-.yarn/install-state.gz
+/3D-interactive-portfolio/node_modules
+/3D-interactive-portfolio/.pnp
+/3D-interactive-portfolio/.pnp.js
+/3D-interactive-portfolio/.yarn/install-state.gz
 
 # testing
-/coverage
+/3D-interactive-portfolio/coverage
 
 # next.js
-/.next/
-/out/
+/3D-interactive-portfolio/.next/
+/3D-interactive-portfolio/out/
 
 # production
-/build
+/3D-interactive-portfolio/build
 
 # misc
 .DS_Store
@@ -27,22 +42,21 @@ yarn-error.log*
 
 # local env files
 .env*.local
+/3D-interactive-portfolio/.env
 
 # vercel
-.vercel
+/3D-interactive-portfolio/.vercel
 
 # typescript
 *.tsbuildinfo
-next-env.d.ts
+/3D-interactive-portfolio/next-env.d.ts
 
-public/assets/projects-screenshots/codingducks/
-public/assets/projects-screenshots/couponluxury
-public/assets/projects-screenshots/ghostchat
-public/assets/projects-screenshots/jra
-public/assets/projects-screenshots/the-booking-desk
+# project-specific ignored files
+/3D-interactive-portfolio/public/assets/projects-screenshots/codingducks/
+/3D-interactive-portfolio/public/assets/projects-screenshots/couponluxury
+/3D-interactive-portfolio/public/assets/projects-screenshots/ghostchat
+/3D-interactive-portfolio/public/assets/projects-screenshots/jra
+/3D-interactive-portfolio/public/assets/projects-screenshots/the-booking-desk
 
-Resend API key.txt
-
-.env
-
-updated-readme.md
+/3D-interactive-portfolio/Resend API key.txt
+/3D-interactive-portfolio/updated-readme.md
