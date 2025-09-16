@@ -24,7 +24,7 @@ const links: Link[] = [
   {
     title: 'Blogs',
     href: '/blogs',
-    // thumbnail: '/assets/nav-link-previews/blogs.png'
+    thumbnail: '/assets/nav-link-previews/blogs.png'
   },
   // {
   //   title: 'Testimonials',

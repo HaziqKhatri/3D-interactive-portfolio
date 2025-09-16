@@ -122,7 +122,7 @@ const ProjectContents = ({ project }: { project: Project }) => {
       </h4>
 
       {/* Splide Carousel */}
-      {project.images && project.images.length > 0 && (
+      {project.screenshots && project.screenshots.length > 0 && (
         <div className="mb-8">
           <Splide
             options={{
@@ -137,7 +137,7 @@ const ProjectContents = ({ project }: { project: Project }) => {
             }}
             aria-label={`${project.title} screenshots`}
           >
-            {project.images.map((image) => (
+            {project.screenshots.map((image) => (
               <SplideSlide key={image}>
                 <Image
                   src={image}
@@ -152,6 +152,7 @@ const ProjectContents = ({ project }: { project: Project }) => {
           </Splide>
         </div>
       )}
+
 
       {/* Skills */}
       <div className="flex flex-col md:flex-row md:justify-evenly max-w-screen overflow-hidden md:overflow-visible">
