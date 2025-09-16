@@ -27,7 +27,7 @@ export default function BlogPage() {
       title: data.title as string,
       date: data.date as string,
       excerpt,
-      image: data.image || "/assets/traffic/karachitraffic.jpg", 
+      image: data.image || "/assets/traffice/karachitraffic.jpg", 
     };
   });
 
