@@ -1,62 +1,24 @@
-# -----------------------------
-# Root rules
-# -----------------------------
+# Node modules anywhere
+node_modules/
 
-# Ignore everything by default
-*
+# Build and cache
+.next/
+out/
+build/
+dist/
+coverage/
+.pnp
+.pnp.js
+.yarn/
 
-# Don’t ignore this file
-!.gitignore
-
-# Keep only the actual project folder
-!/3D-interactive-portfolio/
-
-# -----------------------------
-# Inside 3D-interactive-portfolio rules
-# -----------------------------
-
-# dependencies
-/3D-interactive-portfolio/node_modules
-/3D-interactive-portfolio/.pnp
-/3D-interactive-portfolio/.pnp.js
-/3D-interactive-portfolio/.yarn/install-state.gz
-
-# testing
-/3D-interactive-portfolio/coverage
-
-# next.js
-/3D-interactive-portfolio/.next/
-/3D-interactive-portfolio/out/
-
-# production
-/3D-interactive-portfolio/build
-
-# misc
-.DS_Store
-*.pem
-
-# debug
+# Logs
 npm-debug.log*
 yarn-debug.log*
 yarn-error.log*
 
-# local env files
+# Env files
+.env
 .env*.local
-/3D-interactive-portfolio/.env
 
-# vercel
-/3D-interactive-portfolio/.vercel
-
-# typescript
-*.tsbuildinfo
-/3D-interactive-portfolio/next-env.d.ts
-
-# project-specific ignored files
-/3D-interactive-portfolio/public/assets/projects-screenshots/codingducks/
-/3D-interactive-portfolio/public/assets/projects-screenshots/couponluxury
-/3D-interactive-portfolio/public/assets/projects-screenshots/ghostchat
-/3D-interactive-portfolio/public/assets/projects-screenshots/jra
-/3D-interactive-portfolio/public/assets/projects-screenshots/the-booking-desk
-
-/3D-interactive-portfolio/Resend API key.txt
-/3D-interactive-portfolio/updated-readme.md
+# OS junk
+.DS_Store
