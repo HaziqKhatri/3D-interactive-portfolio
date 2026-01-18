@@ -373,7 +373,7 @@ const projects: Project[] = [
     id: "nma",
     category: "Website",
     title: "NMA",
-    src: "/assets/demo/nma/desktop.png",
+    src: "/assets/demo/NMA/desktop.png",
     screenshots: ["/desktop.png", "/mobile.png"],
     live: "http://nma.org.nz/",
     github: "",
@@ -385,9 +385,8 @@ const projects: Project[] = [
       return (
         <div>
           <TypographyP className="font-mono ">
-            The National Museum of Afghanistan (New Zealand branch) preserves and promotes 
-            Afghan heritage through exhibitions, cultural programs, and educational resources. 
-            The website shares history, events, and opportunities to support the museum’s mission.
+            Ngā Mātārae Anamata Charitable Trust empowers at risk youth through hands on nature experiences.
+            Our programs in outdoor education, sustainable agriculture, and conservation foster resilience, self-reliance, and environmental stewardship
           </TypographyP>
           <ProjectsLinks live={this.live} repo={this.github} />
           <SlideShow
