@@ -309,8 +309,8 @@ const projects: Project[] = [
   id: "helenchapmanphotography",
   category: "Website",
   title: "Helen Chapman Photography",
-  src: "/assets/demo/Helan/2.png",
-  screenshots: ["1.png", "2.png"],
+  src: "/assets/demo/Helan/desktop.png",
+  screenshots: ["/desktop.png", "/mobile.png"],
   live: "https://helenchapmanphotography.co.nz/",
   github: "",
   skills: {
@@ -328,8 +328,8 @@ const projects: Project[] = [
         <ProjectsLinks live={this.live} repo={this.github} />
         <SlideShow
           images={[
-            `/assets/demo/Helan/1.png`,
-            `/assets/demo/Helan/2.png`,
+            `/assets/demo/Helan/desktop.png`,
+            `/assets/demo/Helan/mobile.png`,
           ]}
         />
       </div>
@@ -341,8 +341,8 @@ const projects: Project[] = [
     id: "victorybaptistchurch",
     category: "Website",
     title: "Victory Baptist Church",
-    src: "/assets/demo/Church/1.png",
-    screenshots: ["1.png", "2.png"],
+    src: "/assets/demo/Church/desktop.png",
+    screenshots: ["/desktop.png", "/mobile.png"],
     live: "https://victorybaptistchurch.co.nz/",
     github: "",
     skills: {
@@ -360,8 +360,8 @@ const projects: Project[] = [
           <ProjectsLinks live={this.live} repo={this.github} />
           <SlideShow
             images={[
-              `/assets/demo/Church/1.png`,
-              `/assets/demo/Church/2.png`,
+              `/assets/demo/Church/desktop.png`,
+              `/assets/demo/Church/mobile.png`,
             ]}
           />
         </div>
@@ -373,8 +373,8 @@ const projects: Project[] = [
     id: "nma",
     category: "Website",
     title: "NMA",
-    src: "/assets/demo/nma/1.png",
-    screenshots: ["1.png", "2.png"],
+    src: "/assets/demo/nma/desktop.png",
+    screenshots: ["/desktop.png", "/mobile.png"],
     live: "http://nma.org.nz/",
     github: "",
     skills: {
@@ -392,8 +392,8 @@ const projects: Project[] = [
           <ProjectsLinks live={this.live} repo={this.github} />
           <SlideShow
             images={[
-              `/assets/demo/NMA/1.png`,
-              `/assets/demo/NMA/2.png`,
+              `/assets/demo/NMA/desktop.png`,
+              `/assets/demo/NMA/mobile.png`,
             ]}
           />
         </div>
@@ -405,8 +405,8 @@ const projects: Project[] = [
     id: "pakchinamart",
     category: "E-Commerce",
     title: "Pak China Mart",
-    src: "/assets/demo/PKCM/1.png",
-    screenshots: ["1.png", "2.png"],
+    src: "/assets/demo/PKCM/desktop.png",
+    screenshots: ["/desktop.png", "/mobile.png"],
     live: "https://pakchinamart.com/",
     github: "",
     skills: {
@@ -424,8 +424,8 @@ const projects: Project[] = [
           <ProjectsLinks live={this.live} repo={this.github} />
           <SlideShow
             images={[
-              `/assets/demo/PKCM/1.png`,
-              `/assets/demo/PKCM/2.png`,
+              `/assets/demo/PKCM/desktop.png`,
+              `/assets/demo/PKCM/mobile.png`,
             ]}
           />
         </div>
@@ -437,8 +437,8 @@ const projects: Project[] = [
     id: "zawadi",
     category: "E-Commerce",
     title: "Zawadi Kenya",
-    src: "/assets/demo/Zawadi/1.png",
-    screenshots: ["1.png", "2.png"],
+    src: "/assets/demo/Zawadi/desktop.png",
+    screenshots: ["/desktop.png", "/mobile.png"],
     live: "https://zawadi.co.ke/",
     github: "",
     skills: {
@@ -456,8 +456,8 @@ const projects: Project[] = [
           <ProjectsLinks live={this.live} repo={this.github} />
           <SlideShow
             images={[
-              `/assets/demo/Zawadi/1.png`,
-              `/assets/demo/Zawadi/2.png`,
+              `/assets/demo/Zawadi/desktop.png`,
+              `/assets/demo/Zawadi/mobile.png`,
             ]}
           />
         </div>
@@ -469,8 +469,8 @@ const projects: Project[] = [
     id: "oserth",
     category: "Website",
     title: "Oserth",
-    src: "/assets/demo/Oserth/1.png",
-    screenshots: ["1.png", "2.png"],
+    src: "/assets/demo/Oserth/desktop.png",
+    screenshots: ["/desktop.png", "/mobile.png"],
     live: "https://oserth.e8demo.com/",
     github: "",
     skills: {
@@ -488,8 +488,8 @@ const projects: Project[] = [
           <ProjectsLinks live={this.live} repo={this.github} />
           <SlideShow
             images={[
-              `/assets/demo/Oserth/1.png`,
-              `/assets/demo/Oserth/2.png`,
+              `/assets/demo/Oserth/desktop.png`,
+              `/assets/demo/Oserth/mobile.png`,
             ]}
           />
         </div>
@@ -501,8 +501,8 @@ const projects: Project[] = [
     id: "ccme",
     category: "Website",
     title: "CCME News",
-    src: "/assets/demo/CCME/1.png",
-    screenshots: ["1.png", "2.png"],
+    src: "/assets/demo/CCME/desktop.png",
+    screenshots: ["/desktop.png", "/mobile.png"],
     live: "https://ccme.news/",
     github: "",
     skills: {
@@ -520,8 +520,8 @@ const projects: Project[] = [
           <ProjectsLinks live={this.live} repo={this.github} />
           <SlideShow
             images={[
-              `/assets/demo/CCME/1.png`,
-              `/assets/demo/CCME/2.png`,
+              `/assets/demo/CCME/desktop.png`,
+              `/assets/demo/CCME/mobile.png`,
             ]}
           />
         </div>
@@ -533,8 +533,8 @@ const projects: Project[] = [
     id: "fusionfragrance",
     category: "E-Commerce",
     title: "Fusion Fragrance",
-    src: "/assets/demo/Fusion/1.png",
-    screenshots: ["1.png", "2.png"],
+    src: "/assets/demo/Fusion/desktop.png",
+    screenshots: ["/desktop.png", "/mobile.png"],
     live: "https://fusionfragrance.pk/",
     github: "",
     skills: {
@@ -552,8 +552,8 @@ const projects: Project[] = [
           <ProjectsLinks live={this.live} repo={this.github} />
           <SlideShow
             images={[
-              `/assets/demo/Fusion/1.png`,
-              `/assets/demo/Fusion/2.png`,
+              `/assets/demo/Fusion/desktop.png`,
+              `/assets/demo/Fusion/mobile.png`,
             ]}
           />
         </div>
@@ -565,8 +565,8 @@ const projects: Project[] = [
     id: "hairandmakeupaustralia",
     category: "Website",
     title: "Hair & Makeup Australia",
-    src: "/assets/demo/Hair/1.png",
-    screenshots: ["1.png", "2.png"],
+    src: "/assets/demo/Hair/desktop.png",
+    screenshots: ["/desktop.png", "/mobile.png"],
     live: "https://hairandmakeupaustralia.com.au/",
     github: "",
     skills: {
@@ -584,8 +584,8 @@ const projects: Project[] = [
           <ProjectsLinks live={this.live} repo={this.github} />
           <SlideShow
             images={[
-              `/assets/demo/Hair/1.png`,
-              `/assets/demo/Hair/2.png`,
+              `/assets/demo/Hair/desktop.png`,
+              `/assets/demo/Hair/mobile.png`,
             ]}
           />
         </div>
@@ -593,12 +593,12 @@ const projects: Project[] = [
     },
   },
     {
-    id: "tcfpakistan",
+    id: "bpeSaudi",
     category: "Website",
-    title: "The Citizens Foundation (Pakistan)",
-    src: "/assets/demo/TCFpng",
-    screenshots: ["1.png", "2.png"],
-    live: "https://www.tcf.org.pk/",
+    title: "Balance & Prosperity Establishment Commercial",
+    src: "/assets/demo/BPE/desktop.png",
+    screenshots: ["/desktop.png", "/mobile.png"],
+    live: "https://bpe-est.com/",
     github: "",
     skills: {
       frontend: [PROJECT_SKILLS.react, PROJECT_SKILLS.tailwind],
@@ -608,16 +608,13 @@ const projects: Project[] = [
       return (
         <div>
           <TypographyP className="font-mono ">
-            The Citizens Foundation (Pakistan) is a leading non-profit organization 
-            dedicated to providing quality education to underprivileged children 
-            across Pakistan. The website shares their mission, impact, stories, 
-            and ways to support through donations and volunteering.
+            Balance & Prosperity Establishment Commercial (BPE) is a trusted importer and distributor of industrial products serving major industries across the Kingdom of Saudi Arabia. We supply reliable solutions in instrumentation, mechanical, electrical, HVAC, and industrial equipment.
           </TypographyP>
           <ProjectsLinks live={this.live} repo={this.github} />
           <SlideShow
             images={[
-              `/assets/demo/TCFpng`,
-              `/assets/demo/TCFpng`,
+              `/assets/demo/BPE/desktop.png`,
+              `/assets/demo/BPE/mobile.png`,
             ]}
           />
         </div>
@@ -626,200 +623,231 @@ const projects: Project[] = [
   },
 
   {
-    id: "tcfuk",
-    category: "Website",
-    title: "The Citizens Foundation (UK)",
-    src: "/assets/demo/TCF1.png",
-    screenshots: ["1.png", "2.png"],
-    live: "https://tcf-uk.org/",
-    github: "",
-    skills: {
-      frontend: [PROJECT_SKILLS.react, PROJECT_SKILLS.tailwind],
-      backend: [],
-    },
-    get content() {
-      return (
-        <div>
-          <TypographyP className="font-mono ">
-            The Citizens Foundation UK supports TCF’s mission by raising funds 
-            and awareness in the United Kingdom. The site highlights education 
-            initiatives, donation programs, and upcoming charity events.
-          </TypographyP>
-          <ProjectsLinks live={this.live} repo={this.github} />
-          <SlideShow
-            images={[
-              `/assets/demo/TCF1.png`,
-              `/assets/demo/TCF2.png`,
-            ]}
-          />
-        </div>
-      );
-    },
+  id: "larensy",
+  category: "Website",
+  title: "Larensy",
+  src: "/assets/demo/Larensy/desktop.png",
+  screenshots: ["/desktop.png", "/mobile.png"],
+  live: "https://larensy.com/",
+  github: "",
+  skills: {
+    frontend: [PROJECT_SKILLS.react, PROJECT_SKILLS.tailwind],
+    backend: [],
   },
+  get content() {
+    return (
+      <div>
+        <TypographyP className="font-mono ">
+          Larensy Jewelery began with a genuine love story. 
+          While searching for an engagement ring for his now wife, Jacob Larense was taken aback by the high prices and unclear origins of traditionally mined diamonds.
+        </TypographyP>
+        <ProjectsLinks live={this.live} repo={this.github} />
+        <SlideShow
+          images={[
+            `/assets/demo/Larensy/desktop.png`,
+            `/assets/demo/Larensy/mobile.png`,
+          ]}
+        />
+      </div>
+    );
+  },
+},
 
-  {
-    id: "tcfnorway",
-    category: "Website",
-    title: "The Citizens Foundation (Norway)",
-    src: "/assets/demo/TCF/1.png",
-    screenshots: ["1.png", "2.png"],
-    live: "https://www.tcfnorway.org/",
-    github: "",
-    skills: {
-      frontend: [PROJECT_SKILLS.react, PROJECT_SKILLS.tailwind],
-      backend: [],
-    },
-    get content() {
-      return (
-        <div>
-          <TypographyP className="font-mono ">
-            The Citizens Foundation Norway is part of TCF’s global chapters, 
-            working to bring education opportunities to children in Pakistan. 
-            The website provides details on campaigns, donation options, 
-            and community support activities in Norway.
-          </TypographyP>
-          <ProjectsLinks live={this.live} repo={this.github} />
-          <SlideShow
-            images={[
-              `/assets/demo/TCF/1.png`,
-              `/assets/demo/TCF/2.png`,
-            ]}
-          />
-        </div>
-      );
-    },
-  },
+  // {
+  //   id: "tcfuk",
+  //   category: "Website",
+  //   title: "The Citizens Foundation (UK)",
+  //   src: "/assets/demo/TCFdesktop.png",
+  //   screenshots: ["/desktop.png", "/mobile.png"],
+  //   live: "https://tcf-uk.org/",
+  //   github: "",
+  //   skills: {
+  //     frontend: [PROJECT_SKILLS.react, PROJECT_SKILLS.tailwind],
+  //     backend: [],
+  //   },
+  //   get content() {
+  //     return (
+  //       <div>
+  //         <TypographyP className="font-mono ">
+  //           The Citizens Foundation UK supports TCF’s mission by raising funds 
+  //           and awareness in the United Kingdom. The site highlights education 
+  //           initiatives, donation programs, and upcoming charity events.
+  //         </TypographyP>
+  //         <ProjectsLinks live={this.live} repo={this.github} />
+  //         <SlideShow
+  //           images={[
+  //             `/assets/demo/TCFdesktop.png`,
+  //             `/assets/demo/TCFmobile.png`,
+  //           ]}
+  //         />
+  //       </div>
+  //     );
+  //   },
+  // },
 
-  {
-    id: "tcfnetherlands",
-    category: "Website",
-    title: "The Citizens Foundation (Netherlands)",
-    src: "/assets/demo/TCF1.png",
-    screenshots: ["1.png", "2.png"],
-    live: "https://tcfnetherlands.org/",
-    github: "",
-    skills: {
-      frontend: [PROJECT_SKILLS.react, PROJECT_SKILLS.tailwind],
-      backend: [],
-    },
-    get content() {
-      return (
-        <div>
-          <TypographyP className="font-mono ">
-            The Citizens Foundation Netherlands supports TCF’s education 
-            initiatives by engaging the Dutch community in fundraising and 
-            awareness campaigns. The website showcases events, donation 
-            opportunities, and TCF’s global impact.
-          </TypographyP>
-          <ProjectsLinks live={this.live} repo={this.github} />
-          <SlideShow
-            images={[
-              `/assets/demo/TCF1.png`,
-              `/assets/demo/TCF2.png`,
-            ]}
-          />
-        </div>
-      );
-    },
-  },
+  // {
+  //   id: "tcfnorway",
+  //   category: "Website",
+  //   title: "The Citizens Foundation (Norway)",
+  //   src: "/assets/demo/TCF/desktop.png",
+  //   screenshots: ["/desktop.png", "/mobile.png"],
+  //   live: "https://www.tcfnorway.org/",
+  //   github: "",
+  //   skills: {
+  //     frontend: [PROJECT_SKILLS.react, PROJECT_SKILLS.tailwind],
+  //     backend: [],
+  //   },
+  //   get content() {
+  //     return (
+  //       <div>
+  //         <TypographyP className="font-mono ">
+  //           The Citizens Foundation Norway is part of TCF’s global chapters, 
+  //           working to bring education opportunities to children in Pakistan. 
+  //           The website provides details on campaigns, donation options, 
+  //           and community support activities in Norway.
+  //         </TypographyP>
+  //         <ProjectsLinks live={this.live} repo={this.github} />
+  //         <SlideShow
+  //           images={[
+  //             `/assets/demo/TCF/desktop.png`,
+  //             `/assets/demo/TCF/mobile.png`,
+  //           ]}
+  //         />
+  //       </div>
+  //     );
+  //   },
+  // },
 
-  {
-    id: "tcfusa",
-    category: "Website",
-    title: "The Citizens Foundation (USA)",
-    src: "/assets/demo/TCF/1.png",
-    screenshots: ["1.png", "2.png"],
-    live: "https://tcfusa.org/",
-    github: "",
-    skills: {
-      frontend: [PROJECT_SKILLS.react, PROJECT_SKILLS.tailwind],
-      backend: [],
-    },
-    get content() {
-      return (
-        <div>
-          <TypographyP className="font-mono ">
-            The Citizens Foundation USA raises awareness and funds to support 
-            education in Pakistan. The site highlights donation programs, 
-            impact stories, and opportunities for individuals and organizations 
-            to contribute to TCF’s mission.
-          </TypographyP>
-          <ProjectsLinks live={this.live} repo={this.github} />
-          <SlideShow
-            images={[
-              `/assets/demo/TCF/1.png`,
-              `/assets/demo/TCF/2.png`,
-            ]}
-          />
-        </div>
-      );
-    },
-  },
+  // {
+  //   id: "tcfnetherlands",
+  //   category: "Website",
+  //   title: "The Citizens Foundation (Netherlands)",
+  //   src: "/assets/demo/TCFdesktop.png",
+  //   screenshots: ["/desktop.png", "/mobile.png"],
+  //   live: "https://tcfnetherlands.org/",
+  //   github: "",
+  //   skills: {
+  //     frontend: [PROJECT_SKILLS.react, PROJECT_SKILLS.tailwind],
+  //     backend: [],
+  //   },
+  //   get content() {
+  //     return (
+  //       <div>
+  //         <TypographyP className="font-mono ">
+  //           The Citizens Foundation Netherlands supports TCF’s education 
+  //           initiatives by engaging the Dutch community in fundraising and 
+  //           awareness campaigns. The website showcases events, donation 
+  //           opportunities, and TCF’s global impact.
+  //         </TypographyP>
+  //         <ProjectsLinks live={this.live} repo={this.github} />
+  //         <SlideShow
+  //           images={[
+  //             `/assets/demo/TCFdesktop.png`,
+  //             `/assets/demo/TCFmobile.png`,
+  //           ]}
+  //         />
+  //       </div>
+  //     );
+  //   },
+  // },
 
-  {
-    id: "tcfcanada",
-    category: "Website",
-    title: "The Citizens Foundation (Canada)",
-    src: "/assets/demo/TCF/1.png",
-    screenshots: ["1.png", "2.png"],
-    live: "https://tcfcanada.org/",
-    github: "",
-    skills: {
-      frontend: [PROJECT_SKILLS.react, PROJECT_SKILLS.tailwind],
-      backend: [],
-    },
-    get content() {
-      return (
-        <div>
-          <TypographyP className="font-mono ">
-            The Citizens Foundation Canada chapter engages the Canadian community 
-            to support TCF schools in Pakistan. The site features fundraising 
-            campaigns, volunteer opportunities, and donation portals.
-          </TypographyP>
-          <ProjectsLinks live={this.live} repo={this.github} />
-          <SlideShow
-            images={[
-              `/assets/demo/TCF/1.png`,
-              `/assets/demo/TCF/2.png`,
-            ]}
-          />
-        </div>
-      );
-    },
-  },
+  // {
+  //   id: "tcfusa",
+  //   category: "Website",
+  //   title: "The Citizens Foundation (USA)",
+  //   src: "/assets/demo/TCF/desktop.png",
+  //   screenshots: ["/desktop.png", "/mobile.png"],
+  //   live: "https://tcfusa.org/",
+  //   github: "",
+  //   skills: {
+  //     frontend: [PROJECT_SKILLS.react, PROJECT_SKILLS.tailwind],
+  //     backend: [],
+  //   },
+  //   get content() {
+  //     return (
+  //       <div>
+  //         <TypographyP className="font-mono ">
+  //           The Citizens Foundation USA raises awareness and funds to support 
+  //           education in Pakistan. The site highlights donation programs, 
+  //           impact stories, and opportunities for individuals and organizations 
+  //           to contribute to TCF’s mission.
+  //         </TypographyP>
+  //         <ProjectsLinks live={this.live} repo={this.github} />
+  //         <SlideShow
+  //           images={[
+  //             `/assets/demo/TCF/desktop.png`,
+  //             `/assets/demo/TCF/mobile.png`,
+  //           ]}
+  //         />
+  //       </div>
+  //     );
+  //   },
+  // },
 
-  {
-    id: "tcfswitzerland",
-    category: "Website",
-    title: "The Citizens Foundation (Switzerland)",
-    src: "/assets/demo/TCFSS/1.png",
-    screenshots: ["1.png", "2.png"],
-    live: "https://tcfswitzerland.org/",
-    github: "",
-    skills: {
-      frontend: [PROJECT_SKILLS.react, PROJECT_SKILLS.tailwind],
-      backend: [],
-    },
-    get content() {
-      return (
-        <div>
-          <TypographyP className="font-mono ">
-            The Citizens Foundation Switzerland works with local donors and 
-            organizations to expand educational opportunities in Pakistan. 
-            The website promotes TCF’s mission, donation channels, and 
-            upcoming Swiss community events.
-          </TypographyP>
-          <ProjectsLinks live={this.live} repo={this.github} />
-          <SlideShow
-            images={[
-              `/assets/demo/TCFSS/1.png`,
-              `/assets/demo/TCFSS/2.png`,
-            ]}
-          />
-        </div>
-      );
-    },
-  },
+  // {
+  //   id: "tcfcanada",
+  //   category: "Website",
+  //   title: "The Citizens Foundation (Canada)",
+  //   src: "/assets/demo/TCF/desktop.png",
+  //   screenshots: ["/desktop.png", "/mobile.png"],
+  //   live: "https://tcfcanada.org/",
+  //   github: "",
+  //   skills: {
+  //     frontend: [PROJECT_SKILLS.react, PROJECT_SKILLS.tailwind],
+  //     backend: [],
+  //   },
+  //   get content() {
+  //     return (
+  //       <div>
+  //         <TypographyP className="font-mono ">
+  //           The Citizens Foundation Canada chapter engages the Canadian community 
+  //           to support TCF schools in Pakistan. The site features fundraising 
+  //           campaigns, volunteer opportunities, and donation portals.
+  //         </TypographyP>
+  //         <ProjectsLinks live={this.live} repo={this.github} />
+  //         <SlideShow
+  //           images={[
+  //             `/assets/demo/TCF/desktop.png`,
+  //             `/assets/demo/TCF/mobile.png`,
+  //           ]}
+  //         />
+  //       </div>
+  //     );
+  //   },
+  // },
+
+  // {
+  //   id: "tcfswitzerland",
+  //   category: "Website",
+  //   title: "The Citizens Foundation (Switzerland)",
+  //   src: "/assets/demo/TCFSS/desktop.png",
+  //   screenshots: ["/desktop.png", "/mobile.png"],
+  //   live: "https://tcfswitzerland.org/",
+  //   github: "",
+  //   skills: {
+  //     frontend: [PROJECT_SKILLS.react, PROJECT_SKILLS.tailwind],
+  //     backend: [],
+  //   },
+  //   get content() {
+  //     return (
+  //       <div>
+  //         <TypographyP className="font-mono ">
+  //           The Citizens Foundation Switzerland works with local donors and 
+  //           organizations to expand educational opportunities in Pakistan. 
+  //           The website promotes TCF’s mission, donation channels, and 
+  //           upcoming Swiss community events.
+  //         </TypographyP>
+  //         <ProjectsLinks live={this.live} repo={this.github} />
+  //         <SlideShow
+  //           images={[
+  //             `/assets/demo/TCFSS/desktop.png`,
+  //             `/assets/demo/TCFSS/mobile.png`,
+  //           ]}
+  //         />
+  //       </div>
+  //     );
+  //   },
+  // },
 
 ];
 export default projects;
