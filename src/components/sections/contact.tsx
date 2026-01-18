@@ -17,7 +17,7 @@ const ContactSection = () => {
   const emailSafe = config?.email || "your@email.com";
 
   return (
-    <section id="contact" className="min-h-screen max-w-7xl mx-auto px-4">
+    <section id="contact" className="max-w-7xl mx-auto mt-32 md:mt-48 py-24">
       <Link href="#contact">
         <h2
           className={cn(
@@ -26,7 +26,7 @@ const ContactSection = () => {
             "dark:bg-gradient-to-b dark:from-white/80 dark:to-white/20 dark:bg-opacity-50"
           )}
         >
-          LET&apos;S WORK <br />
+          LET'S WORK <br />
           TOGETHER
         </h2>
       </Link>
