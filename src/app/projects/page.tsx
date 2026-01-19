@@ -9,7 +9,7 @@ import "@splidejs/react-splide/css";
 
 const PROJECTS = [
   {
-    id: 1,
+    id: "helenchapmanphotography",
     name: "Helen",
     description: `Helen is a sleek and responsive web platform crafted to deliver elegant and 
     user-friendly digital experiences. It emphasizes performance, clean design, 
@@ -18,9 +18,8 @@ const PROJECTS = [
     or interactive applications.`,
     link: "https://helenchapmanphotography.co.nz/",
     images: [
-      "/assets/demo/Helan/1.png",
-      "/assets/demo/Helan/2.png",
-      "/assets/demo/Helan/3.png",
+      "/assets/demo/Helan/desktop.png",
+      "/assets/demo/Helan/mobile.png",
     ],
   },
 ];

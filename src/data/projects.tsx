@@ -310,7 +310,10 @@ const projects: Project[] = [
   category: "Website",
   title: "Helen Chapman Photography",
   src: "/assets/demo/Helan/desktop.png",
-  screenshots: ["/desktop.png", "/mobile.png"],
+  screenshots: [
+    "/assets/demo/Helan/desktop.png",
+    "/assets/demo/Helan/mobile.png",
+  ],
   live: "https://helenchapmanphotography.co.nz/",
   github: "",
   skills: {
@@ -342,7 +345,7 @@ const projects: Project[] = [
     category: "Website",
     title: "Victory Baptist Church",
     src: "/assets/demo/Church/desktop.png",
-    screenshots: ["/desktop.png", "/mobile.png"],
+    screenshots: ["/assets/demo/Church/desktop.png", "/assets/demo/Church/mobile.png"],
     live: "https://victorybaptistchurch.co.nz/",
     github: "",
     skills: {
@@ -374,7 +377,7 @@ const projects: Project[] = [
     category: "Website",
     title: "NMA",
     src: "/assets/demo/NMA/desktop.png",
-    screenshots: ["/desktop.png", "/mobile.png"],
+    screenshots: ["/assets/demo/NMA/desktop.png", "/assets/demo/NMA/mobile.png"],
     live: "http://nma.org.nz/",
     github: "",
     skills: {
@@ -405,7 +408,7 @@ const projects: Project[] = [
     category: "E-Commerce",
     title: "Pak China Mart",
     src: "/assets/demo/PKCM/desktop.png",
-    screenshots: ["/desktop.png", "/mobile.png"],
+    screenshots: ["/assets/demo/PKCM/desktop.png", "/assets/demo/PKCM/mobile.png"],
     live: "https://pakchinamart.com/",
     github: "",
     skills: {
@@ -437,7 +440,7 @@ const projects: Project[] = [
     category: "E-Commerce",
     title: "Zawadi Kenya",
     src: "/assets/demo/Zawadi/desktop.png",
-    screenshots: ["/desktop.png", "/mobile.png"],
+    screenshots: ["/assets/demo/Zawadi/desktop.png", "/assets/demo/Zawadi/mobile.png"],
     live: "https://zawadi.co.ke/",
     github: "",
     skills: {
@@ -469,7 +472,7 @@ const projects: Project[] = [
     category: "Website",
     title: "Oserth",
     src: "/assets/demo/Oserth/desktop.png",
-    screenshots: ["/desktop.png", "/mobile.png"],
+    screenshots: ["/assets/demo/Oserth/desktop.png", "/assets/demo/Oserth/mobile.png"],
     live: "https://oserth.e8demo.com/",
     github: "",
     skills: {
@@ -501,7 +504,7 @@ const projects: Project[] = [
     category: "Website",
     title: "CCME News",
     src: "/assets/demo/CCME/desktop.png",
-    screenshots: ["/desktop.png", "/mobile.png"],
+    screenshots: ["/assets/demo/CCME/desktop.png", "/assets/demo/CCME/mobile.png"],
     live: "https://ccme.news/",
     github: "",
     skills: {
@@ -533,7 +536,7 @@ const projects: Project[] = [
     category: "E-Commerce",
     title: "Fusion Fragrance",
     src: "/assets/demo/Fusion/desktop.png",
-    screenshots: ["/desktop.png", "/mobile.png"],
+    screenshots: ["/assets/demo/Fusion/desktop.png", "/assets/demo/Fusion/mobile.png"],
     live: "https://fusionfragrance.pk/",
     github: "",
     skills: {
@@ -565,7 +568,7 @@ const projects: Project[] = [
     category: "Website",
     title: "Hair & Makeup Australia",
     src: "/assets/demo/Hair/desktop.png",
-    screenshots: ["/desktop.png", "/mobile.png"],
+    screenshots: ["/assets/demo/Hair/desktop.png", "/assets/demo/Hair/mobile.png"],
     live: "https://hairandmakeupaustralia.com.au/",
     github: "",
     skills: {
@@ -596,7 +599,7 @@ const projects: Project[] = [
     category: "Website",
     title: "Balance & Prosperity Establishment Commercial",
     src: "/assets/demo/BPE/desktop.png",
-    screenshots: ["/desktop.png", "/mobile.png"],
+    screenshots: ["/assets/demo/BPE/desktop.png", "/assets/demo/BPE/mobile.png"],
     live: "https://bpe-est.com/",
     github: "",
     skills: {
@@ -626,7 +629,7 @@ const projects: Project[] = [
   category: "Website",
   title: "Larensy",
   src: "/assets/demo/Larensy/desktop.png",
-  screenshots: ["/desktop.png", "/mobile.png"],
+  screenshots: ["/assets/demo/Larensy/desktop.png", "/assets/demo/Larensy/mobile.png"],
   live: "https://larensy.com/",
   github: "",
   skills: {
@@ -645,6 +648,35 @@ const projects: Project[] = [
           images={[
             `/assets/demo/Larensy/desktop.png`,
             `/assets/demo/Larensy/mobile.png`,
+          ]}
+        />
+      </div>
+    );
+  },
+},
+  {
+  id: "synctac",
+  category: "Website",
+  title: "Synctac",
+  src: "/assets/demo/synctac/desktop.png",
+  screenshots: ["/assets/demo/synctac/desktop.png", "/assets/demo/synctac/mobile.png"],
+  live: "https://synctac.com/",
+  github: "",
+  skills: {
+    frontend: [PROJECT_SKILLS.react, PROJECT_SKILLS.tailwind],
+    backend: [],
+  },
+  get content() {
+    return (
+      <div>
+        <TypographyP className="font-mono ">
+          Synctac is a creative agency that blends strategy, design, and technology to craft meaningful digital experiences — helping brands connect, engage, and grow in a visually-driven world.
+        </TypographyP>
+        <ProjectsLinks live={this.live} repo={this.github} />
+        <SlideShow
+          images={[
+            `/assets/demo/synctac/desktop.png`,
+            `/assets/demo/synctac/mobile.png`,
           ]}
         />
       </div>
