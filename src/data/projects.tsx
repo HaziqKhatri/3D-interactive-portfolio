@@ -654,6 +654,35 @@ const projects: Project[] = [
     );
   },
 },
+  {
+  id: "synctac",
+  category: "Website",
+  title: "Synctac",
+  src: "/assets/demo/synctac/desktop.png",
+  screenshots: ["/assets/demo/synctac/desktop.png", "/assets/demo/synctac/mobile.png"],
+  live: "https://synctac.com/",
+  github: "",
+  skills: {
+    frontend: [PROJECT_SKILLS.react, PROJECT_SKILLS.tailwind],
+    backend: [],
+  },
+  get content() {
+    return (
+      <div>
+        <TypographyP className="font-mono ">
+          Synctac is a creative agency that blends strategy, design, and technology to craft meaningful digital experiences — helping brands connect, engage, and grow in a visually-driven world.
+        </TypographyP>
+        <ProjectsLinks live={this.live} repo={this.github} />
+        <SlideShow
+          images={[
+            `/assets/demo/synctac/desktop.png`,
+            `/assets/demo/synctac/mobile.png`,
+          ]}
+        />
+      </div>
+    );
+  },
+},
 
   // {
   //   id: "tcfuk",
