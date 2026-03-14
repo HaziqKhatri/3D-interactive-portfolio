@@ -17,7 +17,7 @@ const ContactSection = () => {
   const emailSafe = config?.email || "your@email.com";
 
   return (
-    <section id="contact" className="max-w-7xl mx-auto mt-32 md:mt-48 py-24">
+    <section id="contact" className="max-w-7xl mx-auto mt-32 md:mt-48 py-24 mb-32 md:mb-48">
       <Link href="#contact">
         <h2
           className={cn(

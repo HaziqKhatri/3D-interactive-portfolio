@@ -22,7 +22,7 @@ import { cn } from "@/lib/utils";
 
 const ProjectsSection = () => {
   return (
-    <section id="projects" className="max-w-7xl mx-auto md:h-[130vh]">
+    <section id="projects" className="max-w-7xl mx-auto mt-32 md:mt-48 py-24">
       <Link href="#projects">
         <h2
           className={cn(
@@ -41,7 +41,7 @@ const ProjectsSection = () => {
         ))}
       </div>
 
-      <div className="flex justify-end mt-12">
+     {/* <div className="flex justify-end mt-12">
         <a
           href="https://linktr.ee/haziqkhatri"
           target="_blank"
@@ -51,7 +51,7 @@ const ProjectsSection = () => {
         >
           View More
         </a>
-      </div>
+      </div>*/}
     </section>
   );
 };
