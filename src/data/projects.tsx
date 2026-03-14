@@ -305,6 +305,34 @@ export type Project = {
   live: string;
 };
 const projects: Project[] = [
+{
+  id: "ich",
+  category: "Website",
+  title: "ichbalochistan",
+  src: "/assets/demo/ich/desktop.png",
+  screenshots: ["/assets/demo/ich/desktop.png", "/assets/demo/ich/mobile.png"],
+  live: "https://ichbalochistan.gob.pk/",
+  github: "",
+  skills: {
+    frontend: [PROJECT_SKILLS.react, PROJECT_SKILLS.tailwind],
+    backend: [],
+  },
+  get content() {
+    return (
+      <div>
+        <TypographyP className="font-mono ">
+          The Directorate of Culture is responsible for documenting, safeguarding, and promoting the living heritage of Balochistan in collaboration with local communities, practitioners, and academic institutions.</TypographyP>
+        <ProjectsLinks live={this.live} repo={this.github} />
+        <SlideShow
+          images={[
+            `/assets/demo/ich/desktop.png`,
+            `/assets/demo/ich/mobile.png`,
+          ]}
+        />
+      </div>
+    );
+  },
+},
   { // 01. sample{
   id: "helenchapmanphotography",
   category: "Website",
@@ -683,6 +711,7 @@ const projects: Project[] = [
     );
   },
 },
+
 
   // {
   //   id: "tcfuk",
