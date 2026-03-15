@@ -348,26 +348,55 @@ const projects: Project[] = [
     frontend: [PROJECT_SKILLS.react, PROJECT_SKILLS.tailwind],
     backend: [],
   },
-  get content() {
-    return (
-      <div>
-        <TypographyP className="font-mono ">
-          Helen Chapman Photography showcases stunning wedding, portrait, and event photography. 
-          The site highlights her portfolio, client stories, and photography packages, 
-          creating an elegant and personal experience for visitors.
-        </TypographyP>
-        <ProjectsLinks live={this.live} repo={this.github} />
-        <SlideShow
-          images={[
-            `/assets/demo/Helan/desktop.png`,
-            `/assets/demo/Helan/mobile.png`,
-          ]}
-        />
-      </div>
-    );
-  },
+    get content() {
+      return (
+        <div>
+          <TypographyP className="font-mono ">
+            Helen Chapman Photography showcases stunning wedding, portrait, and event photography. 
+            The site highlights her portfolio, client stories, and photography packages, 
+            creating an elegant and personal experience for visitors.
+          </TypographyP>
+          <ProjectsLinks live={this.live} repo={this.github} />
+          <SlideShow
+            images={[
+              `/assets/demo/Helan/desktop.png`,
+              `/assets/demo/Helan/mobile.png`,
+            ]}
+          />
+        </div>
+      );
+    },
   },
 
+  {
+    id: "medithreadz",
+    category: "Website",
+    title: "Medithreadz",
+    src: "/assets/demo/medi/desktop.png",
+    screenshots: ["/assets/demo/medi/desktop.png", "/assets/demo/medi/mobile.png"],
+    live: "https://medithreadz.com/",
+    github: "",
+    skills: {
+      frontend: [PROJECT_SKILLS.react, PROJECT_SKILLS.tailwind],
+      backend: [],
+    },
+    get content() {
+      return (
+        <div>
+          <TypographyP className="font-mono ">
+            Medithreadz is a website that provides PDO thread lift products and aesthetic solutions used by medical professionals for non-surgical skin lifting and rejuvenation.
+          </TypographyP>
+          <ProjectsLinks live={this.live} repo={this.github} />
+          <SlideShow
+            images={[
+              `/assets/demo/medi/desktop.png`,
+              `/assets/demo/medi/mobile.png`,
+            ]}
+          />
+        </div>
+      );
+    },
+  },
   {
     id: "victorybaptistchurch",
     category: "Website",
