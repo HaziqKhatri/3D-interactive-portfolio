@@ -398,6 +398,35 @@ const projects: Project[] = [
     },
   },
   {
+    id: "rehsa",
+    category: "Website",
+    title: "Rehsa",
+    src: "/assets/demo/rehsa/desktop.png",
+    screenshots: ["/assets/demo/rehsa/desktop.png", "/assets/demo/rehsa/mobile.png"],
+    live: "https://rehsathreadz.com/",
+    github: "",
+    skills: {
+      frontend: [PROJECT_SKILLS.react, PROJECT_SKILLS.tailwind],
+      backend: [],
+    },
+    get content() {
+      return (
+        <div>
+          <TypographyP className="font-mono ">
+             Rehsa is a real estate website that lists or promotes properties for buying, selling, or renting homes and plots.
+          </TypographyP>
+          <ProjectsLinks live={this.live} repo={this.github} />
+          <SlideShow
+            images={[
+              `/assets/demo/rehsa/desktop.png`,
+              `/assets/demo/rehsa/mobile.png`,
+            ]}
+          />
+        </div>
+      );
+    },
+  },
+  {
     id: "victorybaptistchurch",
     category: "Website",
     title: "Victory Baptist Church",
